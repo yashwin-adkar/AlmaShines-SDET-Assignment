@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="AlmaShinesSuite">
+
+    <test name="SignupAssessment">
+
+        <classes>
+
+            <class name="com.almashines.tests.SignupPageTests"/>
+
+            <class name="com.almashines.tests.ExistingUserTests"/>
+
+            <class name="com.almashines.tests.UserDetailsTests"/>
+
+            <class name="com.almashines.tests.OTPTests"/>
+
+            <class name="com.almashines.tests.HybridSignupTests"/>
+
+        </classes>
+
+    </test>
+
+</suite>
