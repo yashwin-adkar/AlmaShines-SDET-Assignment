@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AlmaShinesSuite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="SignupAssessment(failed)" verbose="0">
+    <classes>
+      <class name="com.almashines.tests.OTPTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyOTPResendLimit"/>
+          <include name="setup"/>
+          <include name="navigateToOTPPage"/>
+        </methods>
+      </class> <!-- com.almashines.tests.OTPTests -->
+      <class name="com.almashines.tests.SignupPageTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyInvalidEmails" invocation-numbers="7"/>
+          <include name="setup"/>
+          <include name="initializePage"/>
+        </methods>
+      </class> <!-- com.almashines.tests.SignupPageTests -->
+    </classes>
+  </test> <!-- SignupAssessment(failed) -->
+</suite> <!-- Failed suite [AlmaShinesSuite] -->

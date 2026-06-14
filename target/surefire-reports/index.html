@@ -1,0 +1,1455 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-AlmaShinesSuite" class="navigator-link">
+              <span class="suite-name border-failed">AlmaShinesSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-AlmaShinesSuite" class="navigator-link ">
+                    <span>D:\.metadata\AlmaShines\AlmaShinesAutomation\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-AlmaShinesSuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-AlmaShinesSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-AlmaShinesSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-AlmaShinesSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-AlmaShinesSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-AlmaShinesSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">33 methods, 2 failed,   31 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-AlmaShinesSuite" class="hide-methods failed suite-AlmaShinesSuite"> (hide)</a> <!-- hide-methods failed suite-AlmaShinesSuite -->
+                      <a href="#" panel-name="suite-AlmaShinesSuite" class="show-methods failed suite-AlmaShinesSuite"> (show)</a> <!-- show-methods failed suite-AlmaShinesSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-AlmaShinesSuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AlmaShinesSuite" title="com.almashines.tests.SignupPageTests" class="method navigator-link" hash-for-method="verifyInvalidEmails(test..user@gmail.com)">verifyInvalidEmails(test..user@gmail.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AlmaShinesSuite" title="com.almashines.tests.OTPTests" class="method navigator-link" hash-for-method="verifyOTPResendLimit">verifyOTPResendLimit</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-AlmaShinesSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-AlmaShinesSuite" class="hide-methods passed suite-AlmaShinesSuite"> (hide)</a> <!-- hide-methods passed suite-AlmaShinesSuite -->
+                      <a href="#" panel-name="suite-AlmaShinesSuite" class="show-methods passed suite-AlmaShinesSuite"> (show)</a> <!-- show-methods passed suite-AlmaShinesSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-AlmaShinesSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AlmaShinesSuite" title="com.almashines.tests.SignupPageTests" class="method navigator-link" hash-for-method="verifyBlankEmail">verifyBlankEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AlmaShinesSuite" title="com.almashines.tests.OTPTests" class="method navigator-link" hash-for-method="verifyBlankOTP">verifyBlankOTP</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AlmaShinesSuite" title="com.almashines.tests.SignupPageTests" class="method navigator-link" hash-for-method="verifyEmailFieldDisplayed">verifyEmailFieldDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AlmaShinesSuite" title="com.almashines.tests.HybridSignupTests" class="method navigator-link" hash-for-method="verifyEndToEndSignupHybrid(Alumni (Past Student), 2018, 2022)">verifyEndToEndSignupHybrid(Alumni (Past Student), 2018, 2022)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AlmaShinesSuite" title="com.almashines.tests.ExistingUserTests" class="method navigator-link" hash-for-method="verifyExistingUser(petavem197@preparmy.com)">verifyExistingUser(petavem197@preparmy.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AlmaShinesSuite" title="com.almashines.tests.SignupPageTests" class="method navigator-link" hash-for-method="verifyInvalidEmails(test@gmail..com)">verifyInvalidEmails(test@gmail..com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AlmaShinesSuite" title="com.almashines.tests.SignupPageTests" class="method navigator-link" hash-for-method="verifyInvalidEmails(test@@gmail.com)">verifyInvalidEmails(test@@gmail.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AlmaShinesSuite" title="com.almashines.tests.SignupPageTests" class="method navigator-link" hash-for-method="verifyInvalidEmails(test gmail@gmail.com)">verifyInvalidEmails(test gmail@gmail.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AlmaShinesSuite" title="com.almashines.tests.SignupPageTests" class="method navigator-link" hash-for-method="verifyInvalidEmails(abc)">verifyInvalidEmails(abc)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AlmaShinesSuite" title="com.almashines.tests.SignupPageTests" class="method navigator-link" hash-for-method="verifyInvalidEmails(abc.com)">verifyInvalidEmails(abc.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AlmaShinesSuite" title="com.almashines.tests.SignupPageTests" class="method navigator-link" hash-for-method="verifyInvalidEmails(test#gmail.com)">verifyInvalidEmails(test#gmail.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AlmaShinesSuite" title="com.almashines.tests.SignupPageTests" class="method navigator-link" hash-for-method="verifyInvalidEmails(@gmail.com)">verifyInvalidEmails(@gmail.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AlmaShinesSuite" title="com.almashines.tests.SignupPageTests" class="method navigator-link" hash-for-method="verifyInvalidEmails(abc@)">verifyInvalidEmails(abc@)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AlmaShinesSuite" title="com.almashines.tests.OTPTests" class="method navigator-link" hash-for-method="verifyInvalidOTP(abc123)">verifyInvalidOTP(abc123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AlmaShinesSuite" title="com.almashines.tests.OTPTests" class="method navigator-link" hash-for-method="verifyInvalidOTP(111111)">verifyInvalidOTP(111111)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AlmaShinesSuite" title="com.almashines.tests.OTPTests" class="method navigator-link" hash-for-method="verifyInvalidOTP(123)">verifyInvalidOTP(123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AlmaShinesSuite" title="com.almashines.tests.SignupPageTests" class="method navigator-link" hash-for-method="verifyNextButtonDisplayed">verifyNextButtonDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AlmaShinesSuite" title="com.almashines.tests.OTPTests" class="method navigator-link" hash-for-method="verifyOTPPageDisplayed">verifyOTPPageDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AlmaShinesSuite" title="com.almashines.tests.UserDetailsTests" class="method navigator-link" hash-for-method="verifyPasswordMismatch(Test@123, Test@456)">verifyPasswordMismatch(Test@123, Test@456)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AlmaShinesSuite" title="com.almashines.tests.UserDetailsTests" class="method navigator-link" hash-for-method="verifyPasswordMismatch(Admin@123, Admin@999)">verifyPasswordMismatch(Admin@123, Admin@999)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AlmaShinesSuite" title="com.almashines.tests.SignupPageTests" class="method navigator-link" hash-for-method="verifyUpperCaseEmail">verifyUpperCaseEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AlmaShinesSuite" title="com.almashines.tests.SignupPageTests" class="method navigator-link" hash-for-method="verifyValidEmail">verifyValidEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AlmaShinesSuite" title="com.almashines.tests.UserDetailsTests" class="method navigator-link" hash-for-method="verifyValidUserDetails">verifyValidUserDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AlmaShinesSuite" title="com.almashines.tests.UserDetailsTests" class="method navigator-link" hash-for-method="verifyWeakPassword(pass123)">verifyWeakPassword(pass123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AlmaShinesSuite" title="com.almashines.tests.UserDetailsTests" class="method navigator-link" hash-for-method="verifyWeakPassword(abcd)">verifyWeakPassword(abcd)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AlmaShinesSuite" title="com.almashines.tests.UserDetailsTests" class="method navigator-link" hash-for-method="verifyWeakPassword(123)">verifyWeakPassword(123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AlmaShinesSuite" title="com.almashines.tests.UserDetailsTests" class="method navigator-link" hash-for-method="verifyWeakPassword(abcdefg)">verifyWeakPassword(abcdefg)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AlmaShinesSuite" title="com.almashines.tests.UserDetailsTests" class="method navigator-link" hash-for-method="verifyWeakPassword(Password)">verifyWeakPassword(Password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AlmaShinesSuite" title="com.almashines.tests.UserDetailsTests" class="method navigator-link" hash-for-method="verifyWeakPassword(weakpwd)">verifyWeakPassword(weakpwd)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AlmaShinesSuite" title="com.almashines.tests.UserDetailsTests" class="method navigator-link" hash-for-method="verifyWeakPassword(Password123)">verifyWeakPassword(Password123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AlmaShinesSuite" title="com.almashines.tests.UserDetailsTests" class="method navigator-link" hash-for-method="verifyWeakPassword(1234567)">verifyWeakPassword(1234567)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-AlmaShinesSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-AlmaShinesSuite" class="panel AlmaShinesSuite">
+          <div class="suite-AlmaShinesSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.almashines.tests.OTPTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyOTPResendLimit">
+                  </a> <!-- verifyOTPResendLimit -->
+                  <span class="method-name">verifyOTPResendLimit</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: div.swal-text (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.22.0&apos;, revision: &apos;c5f3146703*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.216, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55459}, goog:processID: 16644, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55459/devtoo..., se:cdpVersion: 148.0.7778.216, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 04f62cb62a0e2ccc8ae1a404a1d75348
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.almashines.utils.WaitUtils.waitForVisibility(WaitUtils.java:20)
+	at com.almashines.pages.OTPPage.getPopupMessage(OTPPage.java:44)
+	at com.almashines.tests.OTPTests.verifyOTPResendLimit(OTPTests.java:85)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify resend OTP functionality)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AlmaShinesSuite-class-failed -->
+          <div class="suite-AlmaShinesSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.almashines.tests.SignupPageTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyInvalidEmails(test..user@gmail.com)">
+                  </a> <!-- verifyInvalidEmails(test..user@gmail.com) -->
+                  <span class="method-name">verifyInvalidEmails</span>
+                  <span class="parameters">(test..user@gmail.com)</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: span.mdl-textfield__error (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.22.0&apos;, revision: &apos;c5f3146703*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.216, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54475}, goog:processID: 35016, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54475/devtoo..., se:cdpVersion: 148.0.7778.216, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: beff10a8904697bce73d0a748447e914
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.almashines.utils.WaitUtils.waitForVisibility(WaitUtils.java:20)
+	at com.almashines.pages.SignupPage.getEmailValidationMessage(SignupPage.java:48)
+	at com.almashines.tests.SignupPageTests.verifyInvalidEmails(SignupPageTests.java:68)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify invalid email formats)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AlmaShinesSuite-class-failed -->
+          <div class="suite-AlmaShinesSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.almashines.tests.OTPTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBlankOTP">
+                  </a> <!-- verifyBlankOTP -->
+                  <span class="method-name">verifyBlankOTP</span>
+                  <em>
+(Verify validation message for blank OTP)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyInvalidOTP(abc123)">
+                  </a> <!-- verifyInvalidOTP(abc123) -->
+                  <span class="method-name">verifyInvalidOTP</span>
+                  <span class="parameters">(abc123)</span>
+                  <em>
+(Verify invalid OTP formats)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyInvalidOTP(111111)">
+                  </a> <!-- verifyInvalidOTP(111111) -->
+                  <span class="method-name">verifyInvalidOTP</span>
+                  <span class="parameters">(111111)</span>
+                  <em>
+(Verify invalid OTP formats)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyInvalidOTP(123)">
+                  </a> <!-- verifyInvalidOTP(123) -->
+                  <span class="method-name">verifyInvalidOTP</span>
+                  <span class="parameters">(123)</span>
+                  <em>
+(Verify invalid OTP formats)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyOTPPageDisplayed">
+                  </a> <!-- verifyOTPPageDisplayed -->
+                  <span class="method-name">verifyOTPPageDisplayed</span>
+                  <em>
+(Verify OTP page is displayed)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AlmaShinesSuite-class-passed -->
+          <div class="suite-AlmaShinesSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.almashines.tests.HybridSignupTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyEndToEndSignupHybrid(Alumni (Past Student), 2018, 2022)">
+                  </a> <!-- verifyEndToEndSignupHybrid(Alumni (Past Student), 2018, 2022) -->
+                  <span class="method-name">verifyEndToEndSignupHybrid</span>
+                  <span class="parameters">(Alumni (Past Student),2018,2022)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AlmaShinesSuite-class-passed -->
+          <div class="suite-AlmaShinesSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.almashines.tests.SignupPageTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBlankEmail">
+                  </a> <!-- verifyBlankEmail -->
+                  <span class="method-name">verifyBlankEmail</span>
+                  <em>
+(Verify blank email validation)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyEmailFieldDisplayed">
+                  </a> <!-- verifyEmailFieldDisplayed -->
+                  <span class="method-name">verifyEmailFieldDisplayed</span>
+                  <em>
+(Verify email field is displayed)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyInvalidEmails(test@gmail..com)">
+                  </a> <!-- verifyInvalidEmails(test@gmail..com) -->
+                  <span class="method-name">verifyInvalidEmails</span>
+                  <span class="parameters">(test@gmail..com)</span>
+                  <em>
+(Verify invalid email formats)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyInvalidEmails(test@@gmail.com)">
+                  </a> <!-- verifyInvalidEmails(test@@gmail.com) -->
+                  <span class="method-name">verifyInvalidEmails</span>
+                  <span class="parameters">(test@@gmail.com)</span>
+                  <em>
+(Verify invalid email formats)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyInvalidEmails(test gmail@gmail.com)">
+                  </a> <!-- verifyInvalidEmails(test gmail@gmail.com) -->
+                  <span class="method-name">verifyInvalidEmails</span>
+                  <span class="parameters">(test gmail@gmail.com)</span>
+                  <em>
+(Verify invalid email formats)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyInvalidEmails(abc)">
+                  </a> <!-- verifyInvalidEmails(abc) -->
+                  <span class="method-name">verifyInvalidEmails</span>
+                  <span class="parameters">(abc)</span>
+                  <em>
+(Verify invalid email formats)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyInvalidEmails(abc.com)">
+                  </a> <!-- verifyInvalidEmails(abc.com) -->
+                  <span class="method-name">verifyInvalidEmails</span>
+                  <span class="parameters">(abc.com)</span>
+                  <em>
+(Verify invalid email formats)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyInvalidEmails(test#gmail.com)">
+                  </a> <!-- verifyInvalidEmails(test#gmail.com) -->
+                  <span class="method-name">verifyInvalidEmails</span>
+                  <span class="parameters">(test#gmail.com)</span>
+                  <em>
+(Verify invalid email formats)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyInvalidEmails(@gmail.com)">
+                  </a> <!-- verifyInvalidEmails(@gmail.com) -->
+                  <span class="method-name">verifyInvalidEmails</span>
+                  <span class="parameters">(@gmail.com)</span>
+                  <em>
+(Verify invalid email formats)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyInvalidEmails(abc@)">
+                  </a> <!-- verifyInvalidEmails(abc@) -->
+                  <span class="method-name">verifyInvalidEmails</span>
+                  <span class="parameters">(abc@)</span>
+                  <em>
+(Verify invalid email formats)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyNextButtonDisplayed">
+                  </a> <!-- verifyNextButtonDisplayed -->
+                  <span class="method-name">verifyNextButtonDisplayed</span>
+                  <em>
+(Verify next button is displayed)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUpperCaseEmail">
+                  </a> <!-- verifyUpperCaseEmail -->
+                  <span class="method-name">verifyUpperCaseEmail</span>
+                  <em>
+(Verify email field accepts uppercase email)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyValidEmail">
+                  </a> <!-- verifyValidEmail -->
+                  <span class="method-name">verifyValidEmail</span>
+                  <em>
+(Verify email field accepts valid email)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AlmaShinesSuite-class-passed -->
+          <div class="suite-AlmaShinesSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.almashines.tests.ExistingUserTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyExistingUser(petavem197@preparmy.com)">
+                  </a> <!-- verifyExistingUser(petavem197@preparmy.com) -->
+                  <span class="method-name">verifyExistingUser</span>
+                  <span class="parameters">(petavem197@preparmy.com)</span>
+                  <em>
+(Verify existing user is redirected to login page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AlmaShinesSuite-class-passed -->
+          <div class="suite-AlmaShinesSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.almashines.tests.UserDetailsTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPasswordMismatch(Test@123, Test@456)">
+                  </a> <!-- verifyPasswordMismatch(Test@123, Test@456) -->
+                  <span class="method-name">verifyPasswordMismatch</span>
+                  <span class="parameters">(Test@123,Test@456)</span>
+                  <em>
+(Verify password mismatch validation)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPasswordMismatch(Admin@123, Admin@999)">
+                  </a> <!-- verifyPasswordMismatch(Admin@123, Admin@999) -->
+                  <span class="method-name">verifyPasswordMismatch</span>
+                  <span class="parameters">(Admin@123,Admin@999)</span>
+                  <em>
+(Verify password mismatch validation)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyValidUserDetails">
+                  </a> <!-- verifyValidUserDetails -->
+                  <span class="method-name">verifyValidUserDetails</span>
+                  <em>
+(Verify valid user details)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyWeakPassword(pass123)">
+                  </a> <!-- verifyWeakPassword(pass123) -->
+                  <span class="method-name">verifyWeakPassword</span>
+                  <span class="parameters">(pass123)</span>
+                  <em>
+(Verify weak password validation)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyWeakPassword(abcd)">
+                  </a> <!-- verifyWeakPassword(abcd) -->
+                  <span class="method-name">verifyWeakPassword</span>
+                  <span class="parameters">(abcd)</span>
+                  <em>
+(Verify weak password validation)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyWeakPassword(123)">
+                  </a> <!-- verifyWeakPassword(123) -->
+                  <span class="method-name">verifyWeakPassword</span>
+                  <span class="parameters">(123)</span>
+                  <em>
+(Verify weak password validation)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyWeakPassword(abcdefg)">
+                  </a> <!-- verifyWeakPassword(abcdefg) -->
+                  <span class="method-name">verifyWeakPassword</span>
+                  <span class="parameters">(abcdefg)</span>
+                  <em>
+(Verify weak password validation)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyWeakPassword(Password)">
+                  </a> <!-- verifyWeakPassword(Password) -->
+                  <span class="method-name">verifyWeakPassword</span>
+                  <span class="parameters">(Password)</span>
+                  <em>
+(Verify weak password validation)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyWeakPassword(weakpwd)">
+                  </a> <!-- verifyWeakPassword(weakpwd) -->
+                  <span class="method-name">verifyWeakPassword</span>
+                  <span class="parameters">(weakpwd)</span>
+                  <em>
+(Verify weak password validation)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyWeakPassword(Password123)">
+                  </a> <!-- verifyWeakPassword(Password123) -->
+                  <span class="method-name">verifyWeakPassword</span>
+                  <span class="parameters">(Password123)</span>
+                  <em>
+(Verify weak password validation)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyWeakPassword(1234567)">
+                  </a> <!-- verifyWeakPassword(1234567) -->
+                  <span class="method-name">verifyWeakPassword</span>
+                  <span class="parameters">(1234567)</span>
+                  <em>
+(Verify weak password validation)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AlmaShinesSuite-class-passed -->
+        </div> <!-- panel AlmaShinesSuite -->
+        <div panel-name="test-xml-AlmaShinesSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\.metadata\AlmaShines\AlmaShinesAutomation\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;AlmaShinesSuite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;SignupAssessment&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.almashines.tests.SignupPageTests&quot;/&gt;
+      &lt;class name=&quot;com.almashines.tests.ExistingUserTests&quot;/&gt;
+      &lt;class name=&quot;com.almashines.tests.UserDetailsTests&quot;/&gt;
+      &lt;class name=&quot;com.almashines.tests.OTPTests&quot;/&gt;
+      &lt;class name=&quot;com.almashines.tests.HybridSignupTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SignupAssessment --&gt;
+&lt;/suite&gt; &lt;!-- AlmaShinesSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-AlmaShinesSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for AlmaShinesSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">SignupAssessment (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-AlmaShinesSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for AlmaShinesSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-AlmaShinesSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for AlmaShinesSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_AlmaShinesSuite');
+function tableData_AlmaShinesSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(33);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyOTPResendLimit')
+data.setCell(0, 2, 'com.almashines.tests.OTPTests')
+data.setCell(0, 3, 22486);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyInvalidEmails')
+data.setCell(1, 2, 'com.almashines.tests.SignupPageTests')
+data.setCell(1, 3, 20399);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyEndToEndSignupHybrid')
+data.setCell(2, 2, 'com.almashines.tests.HybridSignupTests')
+data.setCell(2, 3, 17034);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyValidUserDetails')
+data.setCell(3, 2, 'com.almashines.tests.UserDetailsTests')
+data.setCell(3, 3, 2963);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyInvalidOTP')
+data.setCell(4, 2, 'com.almashines.tests.OTPTests')
+data.setCell(4, 3, 2804);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyInvalidOTP')
+data.setCell(5, 2, 'com.almashines.tests.OTPTests')
+data.setCell(5, 3, 2798);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyInvalidOTP')
+data.setCell(6, 2, 'com.almashines.tests.OTPTests')
+data.setCell(6, 3, 2768);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyOTPPageDisplayed')
+data.setCell(7, 2, 'com.almashines.tests.OTPTests')
+data.setCell(7, 3, 2118);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyBlankOTP')
+data.setCell(8, 2, 'com.almashines.tests.OTPTests')
+data.setCell(8, 3, 1166);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyPasswordMismatch')
+data.setCell(9, 2, 'com.almashines.tests.UserDetailsTests')
+data.setCell(9, 3, 857);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyWeakPassword')
+data.setCell(10, 2, 'com.almashines.tests.UserDetailsTests')
+data.setCell(10, 3, 855);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyWeakPassword')
+data.setCell(11, 2, 'com.almashines.tests.UserDetailsTests')
+data.setCell(11, 3, 852);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyPasswordMismatch')
+data.setCell(12, 2, 'com.almashines.tests.UserDetailsTests')
+data.setCell(12, 3, 851);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyWeakPassword')
+data.setCell(13, 2, 'com.almashines.tests.UserDetailsTests')
+data.setCell(13, 3, 850);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyWeakPassword')
+data.setCell(14, 2, 'com.almashines.tests.UserDetailsTests')
+data.setCell(14, 3, 845);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verifyWeakPassword')
+data.setCell(15, 2, 'com.almashines.tests.UserDetailsTests')
+data.setCell(15, 3, 843);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verifyWeakPassword')
+data.setCell(16, 2, 'com.almashines.tests.UserDetailsTests')
+data.setCell(16, 3, 838);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'verifyWeakPassword')
+data.setCell(17, 2, 'com.almashines.tests.UserDetailsTests')
+data.setCell(17, 3, 832);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'verifyWeakPassword')
+data.setCell(18, 2, 'com.almashines.tests.UserDetailsTests')
+data.setCell(18, 3, 830);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'verifyInvalidEmails')
+data.setCell(19, 2, 'com.almashines.tests.SignupPageTests')
+data.setCell(19, 3, 746);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'verifyExistingUser')
+data.setCell(20, 2, 'com.almashines.tests.ExistingUserTests')
+data.setCell(20, 3, 734);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'verifyInvalidEmails')
+data.setCell(21, 2, 'com.almashines.tests.SignupPageTests')
+data.setCell(21, 3, 728);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'verifyInvalidEmails')
+data.setCell(22, 2, 'com.almashines.tests.SignupPageTests')
+data.setCell(22, 3, 234);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'verifyInvalidEmails')
+data.setCell(23, 2, 'com.almashines.tests.SignupPageTests')
+data.setCell(23, 3, 206);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'verifyInvalidEmails')
+data.setCell(24, 2, 'com.almashines.tests.SignupPageTests')
+data.setCell(24, 3, 203);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'verifyInvalidEmails')
+data.setCell(25, 2, 'com.almashines.tests.SignupPageTests')
+data.setCell(25, 3, 203);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'verifyInvalidEmails')
+data.setCell(26, 2, 'com.almashines.tests.SignupPageTests')
+data.setCell(26, 3, 200);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'verifyInvalidEmails')
+data.setCell(27, 2, 'com.almashines.tests.SignupPageTests')
+data.setCell(27, 3, 196);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'verifyUpperCaseEmail')
+data.setCell(28, 2, 'com.almashines.tests.SignupPageTests')
+data.setCell(28, 3, 134);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'verifyValidEmail')
+data.setCell(29, 2, 'com.almashines.tests.SignupPageTests')
+data.setCell(29, 3, 132);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'verifyBlankEmail')
+data.setCell(30, 2, 'com.almashines.tests.SignupPageTests')
+data.setCell(30, 3, 111);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'verifyNextButtonDisplayed')
+data.setCell(31, 2, 'com.almashines.tests.SignupPageTests')
+data.setCell(31, 3, 44);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'verifyEmailFieldDisplayed')
+data.setCell(32, 2, 'com.almashines.tests.SignupPageTests')
+data.setCell(32, 3, 32);
+window.suiteTableData['AlmaShinesSuite']= { tableData: data, tableDiv: 'times-div-AlmaShinesSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-AlmaShinesSuite">
+              </div> <!-- times-div-AlmaShinesSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-AlmaShinesSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for AlmaShinesSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-AlmaShinesSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-AlmaShinesSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.almashines.tests.SignupPageTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializePage</span>
+                <span class="method-start">3869 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyBlankEmail</span>
+                <span class="method-start">3875 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">3987 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">4093 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializePage</span>
+                <span class="method-start">6097 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyEmailFieldDisplayed</span>
+                <span class="method-start">6098 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">6130 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">6241 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializePage</span>
+                <span class="method-start">8225 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyInvalidEmails(abc)</span>
+                <span class="method-start">8226 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">8972 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">9080 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializePage</span>
+                <span class="method-start">11151 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyInvalidEmails(abc@)</span>
+                <span class="method-start">11152 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">11353 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">11456 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyInvalidEmails(abc.com)</span>
+                <span class="method-start">13623 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">initializePage</span>
+                <span class="method-start">13623 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">13820 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">13928 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyInvalidEmails(@gmail.com)</span>
+                <span class="method-start">16046 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">initializePage</span>
+                <span class="method-start">16046 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">16252 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">16372 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyInvalidEmails(test@@gmail.com)</span>
+                <span class="method-start">18386 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">initializePage</span>
+                <span class="method-start">18386 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">19114 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">19212 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializePage</span>
+                <span class="method-start">21285 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyInvalidEmails(test#gmail.com)</span>
+                <span class="method-start">21285 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">21489 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">21611 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializePage</span>
+                <span class="method-start">24021 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyInvalidEmails(test gmail@gmail.com)</span>
+                <span class="method-start">24022 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">24257 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">24365 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyInvalidEmails(test..user@gmail.com)</span>
+                <span class="method-start">26356 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">initializePage</span>
+                <span class="method-start">26356 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">46758 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">46927 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializePage</span>
+                <span class="method-start">49382 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyInvalidEmails(test@gmail..com)</span>
+                <span class="method-start">49382 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">49585 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">49724 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyNextButtonDisplayed</span>
+                <span class="method-start">51824 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">initializePage</span>
+                <span class="method-start">51824 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">51869 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">52005 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializePage</span>
+                <span class="method-start">55293 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyUpperCaseEmail</span>
+                <span class="method-start">55293 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">55427 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">55545 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializePage</span>
+                <span class="method-start">60537 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyValidEmail</span>
+                <span class="method-start">60538 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">60671 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.almashines.tests.ExistingUserTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">60788 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyExistingUser(petavem197@preparmy.com)</span>
+                <span class="method-start">64057 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">64791 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.almashines.tests.UserDetailsTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">64915 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">navigateToUserDetailsPage</span>
+                <span class="method-start">67163 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyPasswordMismatch(Test@123, Test@456)</span>
+                <span class="method-start">67345 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">68197 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">68313 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">navigateToUserDetailsPage</span>
+                <span class="method-start">70449 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyPasswordMismatch(Admin@123, Admin@999)</span>
+                <span class="method-start">70650 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">71508 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">71608 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">navigateToUserDetailsPage</span>
+                <span class="method-start">73529 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyValidUserDetails</span>
+                <span class="method-start">73735 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">76699 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">76807 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">navigateToUserDetailsPage</span>
+                <span class="method-start">78781 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyWeakPassword(123)</span>
+                <span class="method-start">78966 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">79797 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">79897 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">navigateToUserDetailsPage</span>
+                <span class="method-start">85348 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyWeakPassword(abcd)</span>
+                <span class="method-start">85531 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">86376 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">86498 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">navigateToUserDetailsPage</span>
+                <span class="method-start">88748 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyWeakPassword(abcdefg)</span>
+                <span class="method-start">88961 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">89799 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">89915 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">navigateToUserDetailsPage</span>
+                <span class="method-start">91915 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyWeakPassword(1234567)</span>
+                <span class="method-start">92129 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">92973 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">93093 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">navigateToUserDetailsPage</span>
+                <span class="method-start">95157 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyWeakPassword(pass123)</span>
+                <span class="method-start">95348 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">96200 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">96303 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">navigateToUserDetailsPage</span>
+                <span class="method-start">98369 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyWeakPassword(weakpwd)</span>
+                <span class="method-start">98578 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">99411 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">99529 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">navigateToUserDetailsPage</span>
+                <span class="method-start">101449 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyWeakPassword(Password)</span>
+                <span class="method-start">101727 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">102577 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">102712 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">navigateToUserDetailsPage</span>
+                <span class="method-start">104951 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyWeakPassword(Password123)</span>
+                <span class="method-start">105210 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">106065 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.almashines.tests.OTPTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">106184 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">navigateToOTPPage</span>
+                <span class="method-start">108210 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyBlankOTP</span>
+                <span class="method-start">109296 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">110463 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">110591 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">navigateToOTPPage</span>
+                <span class="method-start">112802 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyInvalidOTP(111111)</span>
+                <span class="method-start">113840 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">116638 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">116790 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">navigateToOTPPage</span>
+                <span class="method-start">118920 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyInvalidOTP(abc123)</span>
+                <span class="method-start">120030 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">122799 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">122930 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">navigateToOTPPage</span>
+                <span class="method-start">124945 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyInvalidOTP(123)</span>
+                <span class="method-start">126023 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">128827 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">128976 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">navigateToOTPPage</span>
+                <span class="method-start">131714 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyOTPPageDisplayed</span>
+                <span class="method-start">132721 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">134839 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">134994 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">navigateToOTPPage</span>
+                <span class="method-start">136996 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyOTPResendLimit</span>
+                <span class="method-start">138031 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">160519 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.almashines.tests.HybridSignupTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">160686 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyEndToEndSignupHybrid(Alumni (Past Student), 2018, 2022)</span>
+                <span class="method-start">164966 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">182001 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

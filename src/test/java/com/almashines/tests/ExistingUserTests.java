@@ -9,7 +9,7 @@ import com.almashines.utils.ExistingUserDataProvider;
 
 public class ExistingUserTests extends BaseTest {
 
-        @Test(description = "Verify existing user is redirected to login flow", dataProvider = "existingEmails", dataProviderClass = ExistingUserDataProvider.class)
+        @Test(description = "Verify existing user is redirected to login page", dataProvider = "existingEmails", dataProviderClass = ExistingUserDataProvider.class)
         public void verifyExistingUser(String email) {
 
                 SignupPage signupPage = new SignupPage(driver);
@@ -19,9 +19,7 @@ public class ExistingUserTests extends BaseTest {
                 signupPage.clickNext();
 
                 Assert.assertTrue(
-                                driver.getCurrentUrl().toLowerCase().contains("login")
-                                                || driver.getPageSource().contains("Login"),
-                                "Existing user flow not triggered");
+                                signupPage.isLoginPageDisplayed(),
+                                "Existing user was not redirected to login page");
         }
-
 }

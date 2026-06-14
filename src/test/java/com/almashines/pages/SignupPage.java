@@ -7,12 +7,10 @@ import com.almashines.utils.WaitUtils;
 
 public class SignupPage {
 
-    private WebDriver driver;
     private WaitUtils wait;
 
     public SignupPage(WebDriver driver) {
 
-        this.driver = driver;
         this.wait = new WaitUtils(driver);
     }
 
@@ -21,6 +19,9 @@ public class SignupPage {
     private final By nextBtn = By.id("emailBtn");
 
     private final By emailValidationMsg = By.cssSelector("span.mdl-textfield__error");
+
+    // Used only to verify existing user redirection
+    private final By passwordLoginTxt = By.id("passwordLogin");
 
     public void enterEmail(String email) {
 
@@ -70,8 +71,14 @@ public class SignupPage {
 
     public String getEmailFieldClass() {
 
-        return wait.waitForVisibility(
-                emailTxt)
+        return wait.waitForVisibility(emailTxt)
                 .getAttribute("class");
+    }
+
+    public boolean isLoginPageDisplayed() {
+
+        return wait.waitForVisibility(
+                passwordLoginTxt)
+                .isDisplayed();
     }
 }
