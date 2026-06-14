@@ -105,40 +105,6 @@ src/test/java
 
 ---
 
-## Prerequisites
-
-- Java 17+
-- Maven 3.8+
-- Google Chrome
-
----
-
-## Setup
-
-1. Clone repository
-
-git clone <repository-url>
-
-2. Navigate to project
-
-cd AlmaShinesAutomation
-
-3. Update config.properties
-
-Example:
-
-base.url=https://www.almashines.com/dtc/account
-
-existing.user.email=[existinguser@gmail.com](mailto:existinguser@gmail.com)
-
-signup.user.email=[validsignupuser@gmail.com](mailto:validsignupuser@gmail.com)
-
-4. Install dependencies
-
-mvn clean install
-
----
-
 ## Running Tests
 
 Run all tests:
